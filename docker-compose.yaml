@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe:latest
+    container_name: oracle-xe
+    ports:
+      - "1521:1521"  # Oracle Database port
+      - "5500:5500"  # Oracle Enterprise Manager Express port
+    environment:
+      ORACLE_PASSWORD: 123
+    restart: unless-stopped
