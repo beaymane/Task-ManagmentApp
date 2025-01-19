@@ -1,7 +1,5 @@
 # Employee Records Management System
 
-# Employee Records Management System
-
 ## Overview
 
 The Employee Records Management System is designed to centralize the management of employee data across departments. It provides role-based access control and ensures data integrity with validation rules, search capabilities, and audit trails.
@@ -33,6 +31,11 @@ The system handles the following employee attributes:
 **7 . Docker Integration**
 
 - Set up an Oracle SQL database container using Docker (`gvenzl/oracle-xe:latest`).
+- 
+- **7 .PostMan and swagger **
+- POstman collection ( audit log , employee , department , user )
+- swagger UI as PDF  and  integrated in  the project 
+
 
 ---
 
